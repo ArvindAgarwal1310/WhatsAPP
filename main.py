@@ -3,7 +3,7 @@ from fastapi import FastAPI,Request
 from views import verify,handle_message
 from fastapi.middleware.cors import CORSMiddleware
 
-app=FastAPI(title="Data Dine")
+app=FastAPI(title="Data Dine",redoc_url=None)
 
 @app.get("/webhook")
 async def webhook_get(request: Request):
