@@ -1,6 +1,6 @@
 import logging
 import json
-from utils.whatsapp_utils import (
+from whatsapp_utils import (
     process_whatsapp_message,
     is_valid_whatsapp_message,
 )
